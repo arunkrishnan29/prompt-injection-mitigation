@@ -1,5 +1,5 @@
 # detector.py
-
+##py
 from rules import check_rules
 
 
