@@ -1,0 +1,3 @@
+detection:
+  use_rules: true
+  use_ml_model: false
