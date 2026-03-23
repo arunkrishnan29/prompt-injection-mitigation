@@ -2,14 +2,14 @@
 
 # Project title : Mitigation of Prompt Injection Attacks in Simulated LLM environment.
 
-## 📌 Project Overview
+##  Project Overview
 This project focuses on detecting and mitigating prompt injection attacks in a simulated Large Language Model (LLM) environment. Prompt injection is a security vulnerability where malicious inputs manipulate the behavior of AI systems, leading to unintended or harmful outputs.
 
 The system analyzes user prompts, identifies potentially harmful instructions, and prevents unsafe execution before passing them to the LLM.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Detect prompt injection patterns in user inputs  
 - Prevent execution of malicious or unsafe prompts  
 - Ensure secure interaction with LLM systems  
@@ -17,7 +17,7 @@ The system analyzes user prompts, identifies potentially harmful instructions, a
 
 ---
 
-## ⚠️ Problem Statement
+##  Problem Statement
 Large Language Models are vulnerable to prompt injection attacks where attackers can:
 - Override system instructions  
 - Extract sensitive or hidden data  
@@ -27,7 +27,7 @@ This project introduces a defensive layer to filter such malicious inputs.
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 - Prompt analysis using rule-based detection  
 - Identification of malicious instructions  
 - Blocking unsafe prompts  
@@ -36,7 +36,7 @@ This project introduces a defensive layer to filter such malicious inputs.
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 project/
 │
 ├── app.py  
@@ -48,7 +48,7 @@ project/
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 - Python  
 - Streamlit  
 - Regular Expressions  
@@ -56,7 +56,7 @@ project/
 
 ---
 
-## 🚀 How It Works
+##  How It Works
 1. User enters a prompt  
 2. The system scans the prompt for malicious patterns  
 3. If unsafe:
@@ -68,7 +68,7 @@ project/
 
 ---
 
-## 🧪 Example
+##  Example
 
 ### Safe Input:
 Explain what is cloud computing  
@@ -80,7 +80,7 @@ The system detects and blocks malicious inputs.
 
 ---
 
-## 💡 Applications
+##  Applications
 - Securing AI chatbots  
 - Preventing prompt injection attacks  
 - AI safety research  
@@ -88,7 +88,7 @@ The system detects and blocks malicious inputs.
 
 ---
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 1. Clone the repository  
 git clone <your-repo-link>  
@@ -104,7 +104,7 @@ streamlit run app.py
 
 ---
 
-## 📊 Future Enhancements
+##  Future Enhancements
 - Integration with real LLM APIs  
 - Advanced detection using machine learning  
 - Context-aware filtering  
@@ -112,11 +112,11 @@ streamlit run app.py
 
 ---
 
-## 👨‍💻 Authors
+##  Authors
 Team Members : V.Aathishesh(01) , M.Arunkrishnan(06) , S.Harish(24) , S.Manikandan(41).  
 
 ---
 
-## 📜 License
+##  License
 This project is for educational purposes.
 
