@@ -1,5 +1,7 @@
-# detector.py
-##py
+
+
+# #* detector.py
+# ##py
 from rules import check_rules
 
 
@@ -19,3 +21,4 @@ class PromptInjectionDetector:
             return True
         else:
             return False
+
